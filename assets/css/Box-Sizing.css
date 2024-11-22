@@ -1,0 +1,16 @@
+.texto{
+   
+    background:red;
+    width:100%;
+    height:200px;
+    max-width:2000px;
+    max-height: 500px;
+    min-width:0;
+    min-height:0;
+    
+    overflow-x: auto;
+    margin:10px;
+    padding: 10px 5px;
+    border-width:5px;
+    border-style:groove;
+}

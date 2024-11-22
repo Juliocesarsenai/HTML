@@ -1,0 +1,78 @@
+*{
+    margin:0;
+}
+
+.pai {
+
+}
+
+.filha1, .filha2, .filha3{
+    width:300px;
+    height:300px;
+    
+    margin:10px;
+    position:static;
+
+}
+
+/*.filha2{
+    background:red;
+    float:left;
+    z-index:-20000000000;
+    position: absolute;
+}
+    */
+
+
+
+
+/*.filha1{
+    position:relative;
+    position:absolute;
+    top:50%;
+    left:50%;
+    z-index:-100000000000;
+
+    margin-top:-150px;
+    margin-left:-150px;
+    background:yellowgreen;
+}*/
+
+.filha2{
+    background: greenyellow;
+    position:fixed;
+    
+
+
+}
+.filha3{
+    background: blue;
+    margin:100px;
+    
+  
+
+}
+.filha1{
+    background: red;
+    
+}
+
+
+/*.outra{
+    position:absolute;
+    font-size:50px;
+    background:#fff;
+    right:0;
+    left:50px;
+}
+
+*/
+
+.pai2{
+
+}
+ul li.sticky{
+    position:sticky;
+    background:gray;
+    top:0;
+}

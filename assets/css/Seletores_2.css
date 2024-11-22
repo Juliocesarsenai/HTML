@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.pai h1+p {
+    color:red;
+}/*o simbolo mais ele vai implantar a caracteristica depois de h1, ou seja, todos o p que está depois de h1 vai ficar com a cor vermelha
+*/
+
+.pai p+h1{
+    color:yellow;
+}/*Já nesse caso, o h1 que estiver depois do p vai ficar amarelo*/
+
+
+.pai .um~.dois{
+    color:red;
+}
+
+[meu-atributo~="valor1"]{
+    color:red;
+}
+
+[meu-atributo^="c"]{
+    color:red;} /*Todo atributo que começa com c vai ter a cor vermelha
+
+*/
+[meu-atributo$="c"]{
+    color:red; }/*Todo atributo que termina com c vai ter a cor vermelha
+*/
+[meu-atributo*="c"]{
+    color:red; }
+    /*Todo atributo que contem a letra c vai ter a cor vermelha
+
+
+[checked]{
+    width:50px;
+    height:50px;
+}
